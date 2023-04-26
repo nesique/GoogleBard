@@ -2,11 +2,11 @@ import vm from "vm";
 import fs from "fs";
 import https from "https";
 import { load } from "cheerio";
-import Wait from "../utils/wait.js";
-import Random from "../utils/random.js";
-import Options from "../models/options.js";
-import AppDbContext from "./app-dbcontext.js";
-import Conversation from "../models/conversation.js";
+import Wait from "../utils/wait";
+import Random from "../utils/random";
+import Options from "../models/options";
+import AppDbContext from "./app-dbcontext";
+import Conversation from "../models/conversation";
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
 
 class Bard {
