@@ -1,4 +1,4 @@
-import { Bard } from "../dist/index.js";
+import { Bard } from "../dist/index";
 import { config } from "dotenv";
 import readline from "readline";
 
