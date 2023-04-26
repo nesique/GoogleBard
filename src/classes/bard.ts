@@ -1,7 +1,7 @@
 import vm from "vm";
 import fs from "fs";
 import https from "https";
-import { load } from "cheerio";
+const { load } = require("cheerio");
 import Wait from "../utils/wait";
 import Random from "../utils/random";
 import Options from "../models/options";
