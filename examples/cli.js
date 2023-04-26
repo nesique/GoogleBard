@@ -1,4 +1,4 @@
-import { Bard } from "./../src/index";
+import { Bard } from "../../index";
 import { config } from "dotenv";
 import readline from "readline";
 
