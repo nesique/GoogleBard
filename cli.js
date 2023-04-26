@@ -1,4 +1,4 @@
-import { Bard } from "../src/index.ts";
+import { Bard } from "./src/index.ts";
 import { config } from "dotenv";
 import readline from "readline";
 
